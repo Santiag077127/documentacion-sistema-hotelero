@@ -18,7 +18,7 @@ Desarrollar un sistema hotelero que permita gestionar:
 
 # ⚙️ Definition of Ready (DoR)
 
-Antes de iniciar el desarrollo:
+Antes de iniciar cualquier historia o tarea debe cumplirse lo siguiente:
 
 ## ✔️ Backlog definido
 - Historias de usuario claras
@@ -67,14 +67,27 @@ Antes de iniciar el desarrollo:
 
 # ✅ Definition of Done (DoD)
 
-Una tarea se considera finalizada cuando:
+Una tarea se considera finalizada cuando se cumple todo lo siguiente:
 
-- Funcionalidad implementada
-- Migración aplicada correctamente
-- Datos consistentes
-- Commit documentado
-- Probado correctamente
-- Integrado al sistema
+## 🚀 Desarrollo y funcionalidad
+  - La funcionalidad se implementó según los criterios de aceptación
+  - El código sigue las convenciones del proyecto
+## 🗂️ Migraciones y datos
+  - Las migraciones Liquibase necesarias están creadas y revisadas
+  - Las migraciones se aplicaron con éxito en el entorno de prueba
+  - Los datos resultantes son consistentes y mantienen integridad referencial
+## 🧪 Pruebas y validación
+  - Se ejecutaron pruebas unitarias, de integración o de aceptación relevantes
+  - La funcionalidad fue validada en el entorno local
+  - No hay errores críticos abiertos relacionados con el cambio
+## 📝 Revisión y documentación
+  - El cambio está listo para revisión o ya fue revisado
+  - La documentación relacionada se actualizó si es necesario
+## 📦 Entrega y control de versiones
+  - Se generó un commit claro y descriptivo (Conventional Commits)
+  - La rama está lista para integración al flujo principal
+  - No existen cambios manuales en la base de datos fuera de migraciones
+  - Se verificó la posibilidad de rollback si aplica
 
 ---
 
